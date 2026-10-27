@@ -1,0 +1,7 @@
+# Normalize line endings between Windows and Linux
+* text=auto
+*.sh text eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.stl binary

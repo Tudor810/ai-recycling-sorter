@@ -1,0 +1,41 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# PlatformIO / Arduino (firmware)
+.pio/
+build/
+*.bin
+*.elf
+*.map
+
+# Secrets (Wi-Fi credentials, API keys)
+.env
+secrets.h
+**/secrets/
+
+# Python (ai)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Datasets and trained models (too large for git)
+ai/data/
+ai/datasets/
+*.h5
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Node (app)
+node_modules/
+dist/
+.expo/
+npm-debug.log*
